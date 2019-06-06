@@ -1,0 +1,799 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+    background-color: #F6F6F4;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+.navcat {
+    margin: 0 auto;
+
+    place-items: center;
+}
+
+.navcat button {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.navcat button {
+    padding: 10px;
+    background-color: #F6F6F4;
+    border: 1px solid #CCCCCC;
+}
+
+.navcat a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navcat: hover {
+    background-color: #F6F6F4;
+    border: 1px solid black;
+    color: gray
+}
+.navcat button:hover {
+border: 1px solid black;}
+
+
+.event-list {
+    margin-top: 20px;
+}
+
+article.event-box {
+    padding: 10px;
+    max-width: 100%;
+    display: grid;
+}
+img.thumbnail {
+    max-width: 900px;
+    height: 420px;
+}
+
+.foot a {
+    margin: 0 7%;
+}
+a{
+  text-decoration: none;
+  color: black;
+  
+  font-size: 24px;
+}
+
+a:hover {
+    color: gray;
+}
+
+h1 {
+    font-family: "Lora";
+    font-weight: normal;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+nav a {
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+.first a {
+    font-family: "Lora ";
+    font-style: italic;
+    text-align: center;
+}
+
+.hello h1 {
+    font-family: "Lato";
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+.hello p {
+    font-family: "Lora";
+    font-size: 24px;
+    text-transform: none;
+    text-align: center;
+}
+
+.third p {
+    font-family: "Lora ";
+    font-style: italic;
+}
+
+.inquire {
+  font: 14px 'Lato';
+  text-decoration: none;
+  padding: 6px 10px 6px 10px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+    text-align: center;
+}
+
+.inquire:hover {
+    border: 1px solid black;
+}
+
+
+
+.first a {
+    line-height: 2;
+    font-size: 18px;
+}
+
+.second {
+    
+    line-height: 1.5;
+}
+
+    .first, .second, .third {
+    margin: 0 30px 0 30px;
+}
+
+.third p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#link-container {
+    text-align: center;
+}
+.first, .second, .third {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.servic1, .servic2, .servic3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    margin: 0 30px 0 30px;
+}
+
+.work1, .work2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    margin: 0 30px 0 30px;
+}
+
+.profile {
+   width: 350px;
+}
+
+.meet h2 {
+   font-family: "Lato";
+    font-size: 24px;
+    text-transform: uppercase; 
+}
+
+.meet p {
+    font-family: "Lora";
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+}
+
+.meet {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: grid;
+    border-bottom: 1px solid black;
+    margin: 0 30px 0 30px;
+    }
+.quote {
+    padding-bottom: 100px;
+    display: grid;
+    border-bottom: 1px solid black;
+    margin: 0 30px 0 30px;
+}
+
+.two p {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.parag .two p {
+    margin-bottom: 0;
+}
+
+.parag{
+    border-top: 1px solid black;
+}
+
+.bottom {
+   padding: 60px 0 60px 0;
+}
+
+footer .inquire {
+    font-size: 24px;
+}
+
+.services h1 {
+    font-family: "Lato";
+    font-size: 24px;
+    text-transform: uppercase; 
+}
+
+.work h1 {
+    font-family: "Lato";
+    font-size: 24px;
+    text-transform: uppercase; 
+    font-weight: normal;
+}
+
+
+.meet .two h2 {
+    font-weight: normal;
+}
+
+.title {
+    font-family: "Lato";
+    font-size: 24px;
+    text-transform: uppercase; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: normal;
+}
+
+.services p {
+    text-align: center;
+    color: gray;
+    font-family: "Lora";
+}
+
+.work p {
+    text-align: center;
+    color: gray;
+    font-family: "Lora";
+}
+
+.more p {
+    font-family: "Lato";
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+
+.more {
+    border-bottom: 1px solid black; 
+    margin: 0 30px 0 30px;
+    padding-bottom: 50px;
+}
+
+.event-list {
+    border-bottom: 1px solid black; 
+    margin: 0 30px 0 30px;
+    padding-bottom: 50px;
+}
+
+.hesitate p {
+    color: black;
+}
+
+.center {
+    text-align: left;
+    color: gray;
+    line-height: 1.5;
+    font-family: "Lora";
+    margin-top: 50px;
+}
+
+ ul.center {
+    list-style: none;
+    padding-left: 0;
+}
+
+ ul.center > li {
+    margin-left: 15px;  
+}
+
+ ul.center > li::before {
+    content: "-";
+    margin-left: -15px;
+}
+
+.words h2 {
+    text-align: center;
+    font-family: "Lora";
+    font-weight: normal;
+}
+
+
+.words p {
+    text-align: center;
+    font-family: "Lora";
+    font-weight: normal;
+}
+
+.video-wrapper {
+    position: relative;
+  text-align: center;
+}
+
+#player {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.servic1 {
+    border-top: 1px solid black;
+}
+
+
+
+.social img{
+    max-height: 35px;
+}
+
+header {
+    padding: 15px;
+}
+
+.logo {
+    max-width: 13rem;
+}
+
+
+.logo {
+    font-family: inherit;
+    font-size: 1.5em;
+    margin-left: 0em;
+}
+
+
+.navbar {
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.nav-links,
+.logo1 {
+    text-decoration: none;
+    color: black;
+    min-height: 18px;
+}
+
+.menu li {
+    text-align: center;
+    margin: 15px auto;
+    font-weight: 500;
+}
+
+.logo1 {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+    cursor: pointer;
+    color: black;
+    font-size: 24px;
+}
+
+.menu {
+    list-style-type: none;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+.navbar-toggle {
+    width: 45px;
+    align-self: center;
+    cursor: pointer;
+    color: black;
+}
+
+.icon-bar {
+    height: 4px;
+    width: 80%;
+    background: black;
+    margin: 5px 0;
+    display: block;
+    border-radius: 2px;
+}
+
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: ab;
+  top: 0;
+  left: 0;
+    max-height: 300px;
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+    max-height: 400px;
+}
+
+
+textarea {
+  width: 350px;
+  max-width: 350px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  border: solid 1px gray;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+background-color: #dddddb;
+    color: white;
+}
+
+.middle {
+    font-family: "Lato";
+    position: relative;
+  width: 350px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  width: 350px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  border: solid 1px gray;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+background-color: #dddddb;
+  color: white;
+}
+
+#submit {
+  width: 382px;
+  padding: 0;
+  margin: -3px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+  border: solid 1px gray;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #dddddb;
+    color: white;
+}
+
+.thanks {
+    border-top: solid 1px black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 30px 0 30px;
+    font-family: "Lora";
+    text-align: center;
+    font-size: 34px;
+}
+
+.contact {
+    border-bottom: solid 1px black;
+    padding-bottom: 50px;
+    margin: 0 30px 0 30px;
+}
+
+.promo {
+  display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image3 {
+    max-width: 100%;
+    position: relative;
+    
+}
+
+.instagram #link-container {
+    padding-bottom: 0px;
+}
+@media only screen and (max-width : 1216px) {
+    .image1, .image2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 1217px) {
+    .image3{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width : 768px) {
+
+   .centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    .thanks {
+        margin: 0 30% 0 30%;
+    }
+    
+    .wrap {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .menu li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .current-page{
+        color: gray;
+    }
+
+
+    .logo:hover,
+    .nav-links:hover {
+        color: gray;
+    }
+    
+    
+
+}
+
+
+@media (min-width: 1024px) {
+    
+
+    
+    .contact {
+        padding-bottom: 100px;
+        padding-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "onearea twoarea";
+    }
+    
+    
+    .hello {
+    margin-top: 50px;
+    margin-bottom: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas: "areaone areatwo areathree";
+    }
+.first {
+    grid-area: areaone;
+}
+     .first, .second, .third {
+    border-bottom: none;
+         }
+    .second {
+    grid-area: areatwo;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding: 50px 10px 50px; 10px;
+    }
+    
+    .third {
+       grid-area: areathree; 
+    }
+
+    .services {
+    margin-top: 100px;
+    margin-bottom: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "onearea twoarea threearea";
+    }
+    
+    .servic1 {
+        grid-area: onearea;
+    }
+    
+    .servic2 {
+        grid-area: twoarea;
+    }
+    
+    .servic3 {
+        grid-area: threearea;
+    }
+    
+    .servic1, .servic2, .servic3 {
+    border-top: 1px solid black;
+        border-bottom: none;
+}
+
+    .services h1 {
+        margin-bottom: 50px;
+    }
+    
+    .work {
+        margin-top: 100px;
+    margin-bottom: 100px;
+        margin-left: 250px;
+        margin-right: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "area-1 area-2";
+        grid-column-gap: 200px;
+        border-bottom: 1px solid black;
+    }
+    
+    .work1 {
+        grid-area: area-1;
+    }
+    
+    .work2 {
+        grid-area: area-2;
+    }
+    
+    .work1, .work2 {
+        border-top: 1px solid black;
+        border-bottom: none;
+    }
+    
+    .quote {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "area-one area-two";
+        grid-column-gap: 200px;
+    }
+    
+    .pict {
+        grid-area: area-one;
+    }
+    
+    .words {
+        grid-area: area-two;
+    }
+    .meet {
+        grid-template-columns: 1fr 1fr;
+    grid-template-areas: "area-one area-two";
+        padding-top: 0px;
+        margin-left: 100px;
+    margin-right: 100px;
+        margin-top: 100px;
+    }
+.one {
+    grid-area: area-one;
+}
+
+.two {
+    grid-area: area-two;
+    padding: 10px 70px 0 70px;
+}
+    .two p {
+    padding-left: 0;
+    padding-right: 0;
+}
+ 
+    .more {
+        margin: 0 200px 0 200px;
+    }
+
+    
+      .parag{
+       padding-top: 100px;
+          border-bottom: none;
+    }
+    .parag .two p {
+    margin: 0;
+}
+    
+    .vertical{
+    padding: 60% 0;
+}
+    
+    .parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+    max-height: 300px;
+}
+.image2 {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+    max-height: 400px;
+}   
+}
+
+
+@media only screen and (min-width : 768px) {
+
+    div.event-list {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns:repeat( auto-fit, minmax(450px, 1fr) );
+        justify-items: center;
+}
